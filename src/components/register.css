@@ -1,0 +1,107 @@
+.screen {
+    background: #f1f7fe;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em #e6e9f9;
+    gap: 2em;
+    min-width: 340px;
+    text-align: center;
+  }
+  .screen .logo {
+    margin-top: -3em;
+  }
+  
+  .sec-2 {
+    display: flex;
+  }
+  .screen .email {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+    margin-top: -3em;
+    text-align: left;
+  }
+  .screen .email input {
+    outline: none;
+    border: none;
+    flex: 1;
+  }
+  .screen .email input::-moz-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .screen .email input:-ms-input-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .screen .email input::placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .screen .email ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+  }
+  .screen .password {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+    text-align: left;
+  }
+  .screen .password input {
+    outline: none;
+    border: none;
+    flex: 1;
+  }
+  .screen .password input::-moz-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .screen .password input:-ms-input-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .screen .password input::placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .screen .password ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+  }
+  .screen .password .show-hide {
+    margin-right: -5em;
+  }
+  .screen .register {
+    padding: 1em;
+    background: #a61818;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+  }
+  .screen .footer {
+    display: flex;
+    font-size: 0.7em;
+    color: #5e5e5e;
+    gap: 14em;
+  }
+  .screen .footer span {
+    cursor: pointer;
+  }
+  
+  button {
+    cursor: pointer;
+  }
