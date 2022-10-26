@@ -70,7 +70,7 @@ export const Register = () => {
                 </div>
                 <PasswordInput name="password" label="Password" />
                 <PasswordInput
-                    name="password"
+                    name="confirmPassword"
                     label="Confirm Password"
                     errorMsg={errorMsg}
                 />
