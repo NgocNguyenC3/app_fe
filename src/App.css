@@ -1,0 +1,12 @@
+body {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cba850;
+    height: 100vh;
+
+  }
