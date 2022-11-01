@@ -23,7 +23,7 @@ export const Register = () => {
 
 
     const handleSubmitData = async (e: any) => {
-        setRegisterForm({
+        await setRegisterForm({
             email: form.getFieldValue("email"),
             password: form.getFieldValue("password"),
             confirmPassword: form.getFieldValue("confirmPassword"),
